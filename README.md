@@ -1,2 +1,3 @@
 # Arithmetic-Interpreter
-Arithmetic Expression Interpreter
+A simmple RDP based Interpreter that can evaluate nested arithmetic expressions.
+
