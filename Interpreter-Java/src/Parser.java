@@ -19,11 +19,6 @@ public class Parser {
     }
 
 
-    /* The following methods implement the following grammar:
-       expr: term((ADD | SUBTRACT)term)*
-       term: factor((MULTIPLY | DIVIDE)factor)*
-       factor: INTEGER | LPAREN expr RPAREN
-    */
 
     ASTNode factor(){
         ASTNode result = null;
