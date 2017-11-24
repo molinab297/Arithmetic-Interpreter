@@ -1,5 +1,5 @@
 /**
- * Class that walks the Abstract Syntax Tree (AST) generated from the Parser object.
+ * Class that walks the Abstract Syntax Tree (AST) generated from a {@link Parser} object
  */
 public class Interpreter {
 
@@ -26,6 +26,7 @@ public class Interpreter {
 
     /**
      * Generates the AST from the parser and then traverses the AST.
+     *
      * @return The result of an arithmetic expression
      */
     int interpret(){
@@ -53,6 +54,7 @@ public class Interpreter {
 
     /**
      * Determines the value of a binary operator node
+     *
      * @return the value of a left operand and right operand with the binary operator performed
      * on them.
      */
@@ -73,6 +75,7 @@ public class Interpreter {
 
     /**
      * Determines the value of an integer node
+     *
      * @return the value of an integer node
      */
     int visitIntNode(IntNode node){

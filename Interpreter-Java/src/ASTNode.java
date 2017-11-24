@@ -12,6 +12,7 @@ public class ASTNode {
     /**
      * An AST node contains either an integer or a binary operator value, and may
      * contain a left and right child.
+     *
      * @param token
      *      The value of the node
      */
